@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: "hursheys";
+   
+}
+#lined{
+    display: flex;
+    position: absolute;
+    top: 72%;
+    height: 40px;
+    width: 100%;
+    border-bottom: 0.3px solid rgb(255, 255, 255);
+    border-top:000.3px solid rgb(255, 255, 255);
+}
+
+#lined:hover{
+    background-color: rgb(115, 202, 173);
+    cursor: pointer;
+}
+
+h6{
+    font-family: 200;
+    top: 12px;
+    position: absolute;
+    color: #f3f3f393;
+    font-family: "gilroy";
+    letter-spacing: 10px;
+}
+
+#b{
+    left: 80px;
+    color: white;
+    
+}
+
+#a{
+    right: 60px;
+    color: white;
+}
+
+
+#b:hover{
+    cursor: pointer;
+    left: 80px;
+    color: blanchedalmond;
+    background-color: rgb(149, 105, 89);
+}
+
+#a:hover{
+    cursor: pointer;
+    right: 60px;
+    color: blanchedalmond;
+    background-color: rgb(149, 105, 89);
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+    background-color: #333;
+}
+#left #text{
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    letter-spacing: 5px;
+   font-size:40px;
+    color: white
+    
+    
+}
+#left #text:hover{
+    color: rgb(107, 48, 48);
+    cursor: pointer;
+    -webkit-text-stroke:2px cornflowerblue ;
+}
+
+#left #lbtm{
+    position: absolute;
+    top: 82%;
+    left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#left #lbtm:hover{
+    color: black;
+    cursor: pointer;
+    -webkit-text-stroke:2px rgb(157, 112, 161) ;
+}
+
+#center{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: contain;
+    background-position: center;
+}
+#circle #star #h3{
+    position: absolute;
+    top: 68%;
+    left: 52%;
+}
+
+#circle{ 
+    border: 0.3px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 90%;
+    top: 30%;
+    left: 64%;
+  }
+
+#circle h6{
+    font-family: "gilroy";
+    letter-spacing: 10px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: black
+}
+#circle:hover{
+    cursor: pointer;
+    background-color:transparent;
+    
+}
+#circle h6:hover{
+    cursor: pointer;
+    background-color: rgb(184, 180, 180);
+}
+
+
+
+
+#right{
+    
+    width: 25%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1568684333877-4d39f2c871c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+}
+
+
+#rbtm{
+    position: absolute;
+    top: 82%;
+    left: 79%;
+    width: 20px;
+    font-size: 40px;
+    color: black;
+    
+}
+ #rbtm:hover{
+    color:transparent;
+    cursor: pointer;
+    background-color: rgb(211, 156, 156);
+     -webkit-text-stroke:2px cornflowerblue ;
+   
+}
